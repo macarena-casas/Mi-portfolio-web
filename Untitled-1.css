@@ -1,0 +1,237 @@
+
+
+header{
+    
+    background-image:image-set("https://png.pngtree.com/thumb_back/fw800/background/20230918/pngtree-purple-and-pink-cherry-blossom-abstract-background-image_13930217.jpg") ;
+    background-size:stretch; 
+    background-color: rgb(25, 32, 173);
+    background-position: center;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    
+    font-weight: bold;
+    font-style: inherit;
+    font-family: 'Lucida Sans Unicode' ;
+    font-style:oblique;
+    font-size: medium;
+    text-align: center;
+    
+   
+  
+
+}
+ .titulo{
+        color:rgb(251, 195, 228);
+        filter: drop-shadow(8px 8px 4px rgb(136, 5, 136));
+        text-decoration: underline rgba(19, 2, 28, 0.966);
+        font-size: 70px;
+        font-style: italic;
+        font-family: 'Lucida Sans ' ;
+         font-style:oblique;
+    }
+    .subtitulo{
+        color:rgb(50, 2, 50);
+        filter: drop-shadow(8px 8px 4px rgb(136, 5, 136));
+        text-decoration: underline rgba(19, 2, 28, 0.966);
+        
+    }
+body{
+ 
+    overflow: scroll;
+    background-image:image-set("https://images.unsplash.com/photo-1557682250-33bd709cbe85?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D") ;
+    box-shadow: 0 0 80px 80px rgb(25, 32, 173) inset ;
+    background-size:stretch; 
+    background-position: center;
+    background-clip: content-box;
+    background-repeat:no-repeat;
+    
+    
+    background-color: rgb(25, 32, 173);
+    color:rgb(26, 2, 43);
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lucida Sans ' ;
+    font-style:oblique;
+    font-size: medium;
+    h1{
+        color:rgb(254, 249, 252); 
+        font-size: 80px;
+        -webkit-text-stroke: 2px #000000;
+        filter: drop-shadow(8px 8px 4px rgb(253, 107, 253));
+        text-align: center;
+    }
+    h2{
+        color:rgb(244, 240, 242); 
+        filter: drop-shadow(4px 4px 2px rgb(244, 11, 244));
+        text-decoration: underline rgb(54, 2, 54);
+        -webkit-text-stroke: 1px #000000;
+        font-size: 25px;
+        
+    }
+    h3{
+        color:rgb(244, 240, 242); 
+        filter: drop-shadow(4px 4px 2px rgb(244, 11, 244));
+        text-decoration: underline rgb(54, 2, 54);
+        -webkit-text-stroke: 1px #000000;
+        font-size: 40px;
+        
+    }
+}
+
+    .box{
+        
+        font-weight:bold;
+        width: 520px;
+        height:200px;
+        padding: 5px;
+        border: 4px solid #570443;
+        word-wrap: break-word;
+        text-align:center;
+        background-image:image-set("https://png.pngtree.com/thumb_back/fw800/background/20230918/pngtree-purple-and-pink-cherry-blossom-abstract-background-image_13930217.jpg") ;
+        background-size:stretch; 
+        background-position: center;
+        
+        
+    }
+    .imagen-redonda1 {
+        float:left ;
+        border-radius: 60%;
+        border:4px solid #570443;
+        margin: 40px;
+        
+        
+    }
+    .imagen-redonda {
+       
+        border-radius: 60%;
+        display:inline ;
+    }
+   
+    .box2{
+        
+        font-weight:bold;
+        width: 680px;
+        height:180px;
+        padding: 5px;
+        border: 4px solid #570443;
+        word-wrap: break-word;
+        background-image:image-set("https://png.pngtree.com/thumb_back/fw800/background/20230918/pngtree-purple-and-pink-cherry-blossom-abstract-background-image_13930217.jpg") ;
+        background-size:stretch; 
+        background-position: center;
+        
+        
+    text-align: center;
+      
+    }
+
+    .box3{
+     
+        font-weight:bold;
+        width: 550px;
+        height: 130px;
+        padding: 5px;
+        border: 4px solid #570443;
+        word-wrap: break-word;
+        font-style: italic;
+        font-family: 'Lucida Sans ' ;
+        font-style:oblique;
+        font-size:medium;
+        background-image:image-set("https://png.pngtree.com/thumb_back/fw800/background/20230918/pngtree-purple-and-pink-cherry-blossom-abstract-background-image_13930217.jpg") ;
+        background-size:stretch; 
+        background-position: center;
+    
+        text-align: center;
+          
+        }
+        .box4{
+            display: inline-block;
+            margin: 150px;
+            font-weight:bold;
+            width: 220px;
+            height:180px;
+            padding: 5px;
+            border: 4px solid #570443;
+            word-wrap: break-word;
+            text-align: center;
+         
+            }
+            .box5{
+             
+                display:inline-block;
+                margin: 40px;
+                font-weight:bold;
+                width: 220px;
+                height:180px;
+                padding:5px;
+                border: 4px solid #570443;
+                word-wrap: break-word;
+                text-align: center;
+                
+                
+             
+                }
+              
+          
+            
+            .contenedor{
+
+                font-weight:bold;
+                width:100px;
+                height:40px;
+                padding: 5px;
+                border: 3px solid #570443;
+                background-color: #cf9fee;
+                font-style: italic;
+                font-family: 'Lucida Sans ' ;
+                font-style:oblique;
+                text-align: center;
+            }
+.slider {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  color: rgb(141, 4, 99);
+}
+
+.email {
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  background-color: #deb8f8;
+  -webkit-text-stroke: 1px #000000;
+  color: aliceblue;
+}
+
+.slider:hover .email {
+  display: block;
+}
+.labe{
+    color:rgb(244, 240, 242); 
+        filter: drop-shadow(4px 4px 2px rgb(244, 11, 244));
+        font-style: italic;
+        font-family: 'Lucida Sans ' ;
+        font-style:oblique;
+        text-decoration: underline rgb(54, 2, 54);
+        -webkit-text-stroke: 2px #000000;
+        font-size: 30px;
+}
+    footer{
+        background-image:image-set("https://png.pngtree.com/thumb_back/fw800/background/20230918/pngtree-purple-and-pink-cherry-blossom-abstract-background-image_13930217.jpg") ;
+        background-size:stretch; 
+        
+        background-position: center;
+        background-clip: content-box;
+        background-repeat: no-repeat;
+       
+        color:rgb(46, 1, 78);
+        font-weight: bold;
+        font-style: inherit;
+        font-family: 'Lucida Sans Unicode' ;
+        font-style:oblique;
+        font-size: medium;
+        text-align: center;
+    }
+    
+      
+
