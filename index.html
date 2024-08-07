@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portfolio</title>
@@ -14,11 +13,13 @@
    <h2 class="subtitulo">  Te invito a conocer un poco mas de mi </h2>
    
   
-      <button class="contenedor" onclick="location.href='#Sobre mi'">Sobre Mi</button>
+      <button class="contenedor" onclick="location.href='#Sobre mi'">Sobre mi</button>
       <button class="contenedor" onclick="location.href='#Redes'">Redes</button>
       <button class="contenedor" onclick="location.href='#Conocimientos'">Conocimientos</button>
       <button class="contenedor" onclick="location.href='#Objetivos'">Objetivos</button>
       <button class="contenedor" onclick="location.href='#Proyectos'">Proyectos</button>
+      <button class="contenedor" onclick="location.href='#Contacto'">Contacto</button>
+
   <br>
   <br>
   <br>  
@@ -42,7 +43,7 @@
       <div>Tengo 29 años, me encuentro cursando el segundo año de Programación </div>
       <div> en la UTN.</div>
       <div>Aunque desde el 2017 soy empleada de comercio, estoy en la busqueda   </div>
-      <div>de otro empleo que se relacione más con la programacion.</div>
+      <div>de otro empleo que se relacione más con la programación.</div>
       <div>Tengo dos chicos y me encanta entrenar.</div> 
     </p>
     
@@ -81,16 +82,34 @@
   <br>
   <br>
   <br>
+
   <center>
-  <div class="box3" id ="Objetivos">
+  <div class="box3" id ="Objetivos"  >
     <h2>Objetivos</h2>
     <p>
       <div> Mi principal objetivo es terminar la carrera obteniendo el conocimiento necesario </div>
       <div> para conseguir un empleo, que me permita crecer en el ambito laboral, </div>
       <div>personal y principalmente poder darles un mejor futuro a mis hijos.</div> 
     </p>
- </div> </center>
-
+ </div> 
+</center>
+<div class="box5" id="Proyectos">
+  <h2>Proyectos</h2>
+    <center>
+  <a href="https://github.com/macarena-casas">
+  <img class="imagen-redonda"  src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" 
+    alt="Git" width="90px" height="80px"> 
+  </a>
+  <a href="https://github.com/macarena-casas/tp_web_carrito">
+    <img class="imagen-redonda"  src="imagenes\carrito2.jpg" 
+      alt="Carrito" width="90px" height="80px">    
+    </a>
+    <a href="https://github.com/macarena-casas/tp_integrador">
+      <img class="imagen-redonda"  src="imagenes\inmobiliaria.jpg" 
+        alt="Inmobiliaria" width="90px" height="80px">      
+      </a>
+    </center>
+  </div>
   <div class="box4" id="Redes">
    
     <h2>Redes</h2>
@@ -101,23 +120,11 @@
       <img class="imagen-redonda"  src="https://static.vecteezy.com/system/resources/previews/023/986/980/non_2x/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png" 
       alt="linkedin" width="90px" height="80px">
     </a>
-    <a href="https://www.instagram.com/maca.mec/">
-      <img class="imagen-redonda"  src="https://static.vecteezy.com/system/resources/previews/023/986/514/original/instagram-logo-instagram-logo-transparent-instagram-icon-transparent-free-free-png.png" 
-      alt="instagram" width="90px" height="80px"> </a>  
+    
      </center></div>
   
 
-<div class="box5" id="Proyectos">
-  <h2>Proyectos</h2>
-    <center>
-  <a href="https://github.com/macarena-casas">
-  <img class="imagen-redonda"  src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" 
-    alt="Git" width="90px" height="80px"> 
- 
-  </a>
-  </div></center>
-
-  <section class="contacto" id="contacto"> 
+  <section class="contacto" id="Contacto"> 
   <h1> Contactame!</h1>
      <center>
               <h3> Enviame un email </h3>
@@ -125,13 +132,13 @@
               <form action="https://formsubmit.co/macarenacasas.mc@gmail.com" method="POST">
 
                 <label class="labe" for="nombre">Nombre:</label><br><br>
-                <input type="text" id="nombre" style="width:50%;" name="nombre" required><br><br>
+                <input type="text" id="nombre" style="width:30%;height:30px ;" name="nombre" required><br><br>
                 <label class="labe" for="email">E-mail:</label><br><br>
-                <input type="email" id="email" style="width:50%;" name="email" required><br><br>
+                <input type="email" id="email" style="width:30%;height:30px ;" name="email" required><br><br>
                 <label class="labe" for="asunto">Asunto:</label><br><br>
-                <input type="text" id="asunto" style="width:50%;" name="asunto" required><br><br>
+                <input type="text" id="asunto" style="width:30%;height:30px ;" name="asunto" required><br><br>
                 <label class="labe" for="mensaje">Mensaje:</label><br><br>
-                <textarea id="mensaje" style="width:50%; " name="mensaje" rows="4" cols="50" required></textarea><br><br>
+                <textarea id="mensaje" style="width:30%; " name="mensaje" rows="4" cols="50" required></textarea><br><br>
                 <button class="contenedor" type="submit" id="btnenviar">Enviar</button>
                 <input type ="hidden" name="_next" value="https://MacarenaCasas.github.io/MacarenaCasasDeveloper.github.io/MensajeEnviado.html">
                 <input type ="hidden" name="_captcha" value="false">
